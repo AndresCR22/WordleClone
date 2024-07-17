@@ -9,11 +9,22 @@ document.addEventListener("DOMContentLoaded", () => {
     // Initialize the game state variables
     let guessedWords = [[]];
     let availableSpace = 1;
-    let word = "dairy";
+    let word = "";
     let guessedWordCount = 0;
 
     // Get all the keys from the on-screen keyboard
     const keys = document.querySelectorAll('.keyboard-row button');
+
+    // Function to get the word of the day from the API
+    async function getWordOfTheDay() {
+        try {
+            const response = await fetch('https://random-word-api.herokuapp.com/word?number=1&length=5');
+            const data = await response.json();
+            word = data[0];
+        } catch (error) {
+            console.error('Error fetching the word of the day:', error);
+        }
+    }
 
     // Function to get the current word array from guessed words
     function getCurrentWordArr() {
@@ -71,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const letterId = firstLetterId + index;
                 const letterEl = document.getElementById(letterId);
                 letterEl.classList.add("animate__flipInX");
-                letterEl.style = `background-color: ${tileColor}; border-color: ${tileColor}`;
+                letterEl.style = `background-color: ${tileColor}; border-color: ${tileColor};`;
 
             }, interval * index);
         });
@@ -138,4 +149,7 @@ document.addEventListener("DOMContentLoaded", () => {
     darkModeToggle.addEventListener('click', () => {
         document.body.classList.toggle('dark-mode');
     });
+
+    // Fetch the word of the day when the page loads
+    getWordOfTheDay();
 });
