@@ -34,6 +34,6 @@
 
 **Why This Clone?** <br>
   The primary purpose of creating this Wordle Clone is to practice and demonstrate skills in HTML, CSS, and JavaScript. By     replicating a well-known game, this project serves as a practical example of: <br>
-    HTML Structure: Building a semantic and accessible layout. <br>
-    CSS Styling: Applying responsive design and dark mode theming. <br>
-    JavaScript Programming: Implementing game logic, event handling, and API interactions. <br>
+  - HTML Structure: Building a semantic and accessible layout. <br>
+  - CSS Styling: Applying responsive design and dark mode theming. <br>
+  - JavaScript Programming: Implementing game logic, event handling, and API interactions. <br>
