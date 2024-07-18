@@ -8,9 +8,9 @@
   This project is a clone of the popular word-guessing game, Wordle. It aims to replicate the core functionality of Wordle,    providing an engaging and fun way to test and improve your word-guessing skills. The game features an interactive on-screen keyboard, dark mode toggle, and responsive design for a seamless user experience.
 
 **Files** <br>
-  index.html: Main HTML file containing the structure of the web page.
-  main.js: JavaScript file responsible for the game logic and interactivity.
-  styles.css: CSS file defining the styles and layout for the web page.
+  index.html: Main HTML file containing the structure of the web page. <br>
+  main.js: JavaScript file responsible for the game logic and interactivity. <br>
+  styles.css: CSS file defining the styles and layout for the web page. <br>
 
 **Getting Started** <br>
   To get the Wordle Clone up and running on your local machine, follow these steps:
