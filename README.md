@@ -26,14 +26,14 @@
      Once the page loads, you can start playing the game. Use the on-screen keyboard to input your guesses, and try to guess      the word of the day within six attempts.
 
 **Features** <br>
-    Word of the Day: Each day, a new five-letter word is fetched from an external API.
-    On-Screen Keyboard: An interactive keyboard to input guesses.
-    Tile Colors: Visual feedback using colors to indicate correct letters and positions.
-    Dark Mode: Toggle between light and dark modes for better visibility and comfort.
-    Animations: Smooth animations for a more engaging user experience.
+    Word of the Day: Each day, a new five-letter word is fetched from an external API. <br>
+    On-Screen Keyboard: An interactive keyboard to input guesses. <br>
+    Tile Colors: Visual feedback using colors to indicate correct letters and positions. <br>
+    Dark Mode: Toggle between light and dark modes for better visibility and comfort. <br>
+    Animations: Smooth animations for a more engaging user experience. <br>
 
 **Why This Clone?** <br>
   The primary purpose of creating this Wordle Clone is to practice and demonstrate skills in HTML, CSS, and JavaScript. By     replicating a well-known game, this project serves as a practical example of:
-    * HTML Structure: Building a semantic and accessible layout.
-    * CSS Styling: Applying responsive design and dark mode theming.
-    * JavaScript Programming: Implementing game logic, event handling, and API interactions.
+    * HTML Structure: Building a semantic and accessible layout. <br>
+    * CSS Styling: Applying responsive design and dark mode theming. <br>
+    * JavaScript Programming: Implementing game logic, event handling, and API interactions. <br>
