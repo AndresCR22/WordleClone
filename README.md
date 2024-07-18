@@ -18,12 +18,13 @@ styles.css: CSS file defining the styles and layout for the web page.
 To get the Wordle Clone up and running on your local machine, follow these steps:
 
   1. Clone the Repository
-     ```git clone https://github.com/yourusername/wordle-clone.git cd wordle-clone```
+     ```git clone https://github.com/yourusername/wordle-clone.git```
+     ```cd wordle-clone```
 
-  2. Open the Project in Your Browser
+  3. Open the Project in Your Browser
      Simply open the index.html file in your preferred web browser. You can do this by double-clicking the file or using the browser's "Open File" feature.
 
-  3. Start Playing
+  4. Start Playing
      Once the page loads, you can start playing the game. Use the on-screen keyboard to input your guesses, and try to guess the word of the day within six attempts.
 
 **Features
