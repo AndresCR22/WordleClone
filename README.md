@@ -4,7 +4,7 @@
 - Why
 -->
 
-**Overview**
+**Overview** <br>
   This project is a clone of the popular word-guessing game, Wordle. <br>
   It aims to replicate the core functionality of Wordle, providing an engaging and fun way to test and improve your word-      guessing skills. <br>
   The game features an interactive on-screen keyboard, dark mode toggle, and responsive design for a seamless user           
